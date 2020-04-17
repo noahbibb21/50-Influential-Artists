@@ -1,0 +1,55 @@
+@import 'variables.less';
+@import 'mixins.less';
+@import 'reset.less';
+@import 'general.less';
+@import 'navigation.less';
+@import 'main.less';
+@import 'cta.less';
+
+*{
+    box-sizing: border-box ;
+}
+img{
+    width: 80%;
+    border-radius: 5%;
+}
+// body{
+//     background-color: red;
+    .title-container{
+        height: 90vh;
+        display: flex;
+        background-image: url('/assets/home.png');
+        background-size: contain;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h1{    
+            font-size: 2rem;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            button{
+                border: none;
+                background-color: white;
+                padding: .5rem .2rem;
+            }
+        }
+    }
+
+.artists-container{
+    display: flex;
+    justify-content: space-evenly;
+    .artist{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 45%;
+    }
+    // flex-direction: column;
+    // flex-wrap: wrap;
+
+}
+
+
+
+
