@@ -86,23 +86,53 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-body {
-  background-color: red;
-}
-body .center-content {
+nav {
   display: flex;
-  width: 75%;
-  background-image: url('/assets/home.png');
   justify-content: center;
-  height: 80vh;
+  align-items: center;
+  height: 5rem;
 }
-body .center-content h1 {
+nav a {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  text-decoration: none;
+  padding-right: 2rem;
+}
+* {
+  box-sizing: border-box;
+}
+img {
+  width: 80%;
+  border-radius: 5%;
+}
+.title-container {
+  height: 90vh;
+  display: flex;
+  background-image: url('/assets/home.png');
+  background-size: contain;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.title-container h1 {
   font-size: 2rem;
   align-items: center;
   justify-content: center;
+  color: white;
 }
-.artist {
+.title-container h1 button {
+  border: none;
+  background-color: white;
+  padding: 0.5rem 0.2rem;
+}
+.artists-container {
   display: flex;
+  justify-content: space-evenly;
+}
+.artists-container .artist {
+  display: flex;
+  align-items: center;
   flex-direction: column;
-  flex-wrap: wrap;
+  width: 45%;
 }

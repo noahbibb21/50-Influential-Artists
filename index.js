@@ -223,7 +223,8 @@ const artists = [
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
 function getArtistByIndex(id, name) {
-    /* code here */
+  if getArtistByIndex = [0]
+    return `The artist at index ${id} is ${name}
   }
   
   /**
