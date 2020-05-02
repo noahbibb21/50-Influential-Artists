@@ -25,10 +25,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. How would you describe preprocessing to someone new to CSS?
+    It's like building a LEGO statue that already has chunks put together!
 2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+    Nesting is my favorite! most troubles... probably mixins...
 3. How would you explain the concept of a variable to someone new to programming?
+    A varible is a main portion of content that tells you what you are trying to access in your own words
 4. What is the purpose of using functions in code?
+    it allows you to access data and to create and change things the way you would like.
 5. What is a JSON data?
+    JSON, or JavaScript Object Notation, is a feature of JavaScript that stores data in the form of objects with key-value pairs.
 
 You may need to look up an answer but, you are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -75,13 +80,13 @@ _You will know everything is working properly when you see the styles enabled fo
 * [x ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
 * [ x] Add a viewport meta tag to the head of your index.html page
 * [ x] [Review the provided home desktop design file](design/Desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
-* [ ] Navigation Styles: Use the `navigation.less` file for styling.
-* [ ] Main Content Styles: Use the `main.less` file for styling
-* [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
-* [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles.
-* [ ] Use at least 2 parameters to create your button
-* [ ] Create a hover state that changes the opacity of images to 80%
-* [ ] Use good coding practices including adding responsive breakpoints to your code with media queries
+* [ x] Navigation Styles: Use the `navigation.less` file for styling.
+* [ x] Main Content Styles: Use the `main.less` file for styling
+* [ x] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
+* [ x] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles.
+* [x ] Use at least 2 parameters to create your button
+* [x ] Create a hover state that changes the opacity of images to 80%
+* [ x] Use good coding practices including adding responsive breakpoints to your code with media queries
 
 ### Task 2b: Minimum Viable Product - JavaScript
 

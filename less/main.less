@@ -1,0 +1,105 @@
+@import (reference) "mixins";
+
+body {
+  margin: 0 2rem;
+  .flex(flex, column, flex-start, center);
+}
+
+img {
+  .opacity-transition();
+  border-radius: 0.5rem;
+  &:hover {
+    opacity: 0.8;
+    .opacity-transition();
+  }
+}
+
+.title-container {
+  .flex(flex, column, flex-start, center);
+  text-align: center;
+  border-bottom: 1px solid gray;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+
+  img {
+    position: relative;
+    width: 55%;
+    height: auto;
+    @media (max-width: 500px) {
+      width: 75%;
+    }
+  }
+
+  p,
+  button {
+    position: absolute;
+    z-index: 100;
+  }
+
+  p {
+    margin: 10% auto;
+    font-size: 4vw;
+    color: white;
+
+    @media (max-width: 500px) {
+      font-size: 5vw;
+    }
+  }
+
+  button {
+    margin: 20% auto;
+    .button(0.5rem, none, white, 1rem 3rem);
+    cursor: pointer;
+    @media (max-width: 500px) {
+      margin: 25% auto 20% auto;
+    }
+  }
+}
+
+.artists-container {
+  .flex(flex, row, space-around, flex-start);
+  max-width: 100vw;
+
+  @media (max-width: 500px) {
+    .flex(flex, column, flex-start, center);
+  }
+}
+
+.artist {
+  .flex(flex, column, center, center);
+  margin: 2rem 5rem;
+  text-align: center;
+
+  img {
+    width: 24vw;
+    height: 18vw;
+    margin-bottom: 2.5vh;
+
+    @media (max-width: 500px) {
+      width: 74vw;
+      height: 68vw;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    .color-transition();
+    margin-bottom: 2.5vh;
+  }
+
+  a:hover {
+    color: gray;
+    .color-transition();
+  }
+
+  .bio {
+    width: 27.5vw;
+    font-size: 1.2rem;
+
+    @media (max-width: 500px) {
+      width: 78vw;
+    }
+  }
+}
